@@ -3,13 +3,13 @@ import { menusType } from "@/interFace/interFace";
 const menu_data:menusType[] = [
   {
     id: 1,
-    hasDropdown: true,
+    hasDropdown: false,
     title: "Home",
     link: "/",
-    submenus: [
-      { title: "Home One", link: "/" },
-      { title: "Home Two", link: "/home-two" },
-    ],
+    // submenus: [
+    //   { title: "Home One", link: "/" },
+    //   { title: "Home Two", link: "/home-two" },
+    // ],
   },
   {
     id: 2,
@@ -19,13 +19,13 @@ const menu_data:menusType[] = [
   },
   {
     id: 3,
-    hasDropdown: true,
+    hasDropdown: false,
     title: "Services",
     link: "/services",
-    submenus: [
-      { title: "Our Services", link: "/services" },
-      { title: "Service Details", link: "/service-details" },
-    ],
+    // submenus: [
+    //   { title: "Our Services", link: "/services" },
+    //   { title: "Service Details", link: "/service-details" },
+    // ],
   },
   {
     id: 4,

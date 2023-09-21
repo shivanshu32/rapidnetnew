@@ -18,11 +18,11 @@ const Footer = () => {
                                         </div>
                                         <div className="content">
                                             <span>Call us 24/7</span>
-                                            <h6 className="title"><a href="tel:547587587">(987) 547587587</a></h6>
+                                            <h6 className="title"><a href="tel:9311380931">+91 9311380931</a></h6>
                                         </div>
                                     </div>
                                     <h6 className="title">Contact info</h6>
-                                    <p>Street House, Greater London NW1 8JR, UK</p>
+                                    <p>Plot-22, Shakti Khand-2, Indrapuram, Ghaziabad, UP-201014, India</p>
                                     <div className="footer-social">
                                         <Link href="https://www.facebook.com/"><i className="fab fa-facebook-f"></i></Link>
                                         <Link href="https://twitter.com/"><i className="fab fa-twitter"></i></Link>

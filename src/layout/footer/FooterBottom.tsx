@@ -14,7 +14,7 @@ const FooterBottom = () => {
                     </div>
                     <div className="col-md-8">
                         <div className="copyright-text text-center text-md-end">
-                            <p>Copyrighted by @Netbox - All Right Reserved</p>
+                            <p>Copyrighted by @Rapidnet - All Right Reserved</p>
                         </div>
                     </div>
                 </div>
