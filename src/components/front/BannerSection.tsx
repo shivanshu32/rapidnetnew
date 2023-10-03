@@ -14,7 +14,7 @@ const BannerSection = () => {
                             <div className="cta-btn-wrap">
                                 <Link href="/pricing" className="btn">View our Plans</Link>
                                 <span className="or">OR</span>
-                                <Link href="tel:872670780" className="btn transparent-btn">+1 870 920 987</Link>
+                                <Link href="tel:9311380931" className="btn transparent-btn">+91 9311380931</Link>
                             </div>
                         </div>
                     </div>

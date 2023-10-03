@@ -25,7 +25,7 @@ const Wrapper: React.FC<WrapperProps> = ({ children }) => {
 
   return (
     <>
-      <BacktoTop />
+     {/* <BacktoTop /> */}
       {(() => {
         switch (pathName) {
           case "/home-two":

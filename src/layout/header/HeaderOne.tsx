@@ -49,7 +49,7 @@ const HeaderOne = () => {
                   </div>
                   <div className="header-action">
                     <ul>
-                      <ShoppingCart />
+                      {/* <ShoppingCart /> */}
                       <li className="header-btn">
                         <Link href="/contact" className="btn transparent-btn">
                           Get a Quote

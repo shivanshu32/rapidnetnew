@@ -7,10 +7,10 @@ const HeroSection: React.FC = () => {
         <div className="row">
           <div className="col-xl-5 col-lg-6 col-md-9">
             <div className="banner-content">
-              <h2 className="title wow fadeInUp" data-wow-delay=".2s">Journey With Fast Internet</h2>
-              <p className="wow fadeInUp" data-wow-delay=".4s">Fast Speed + No Service Charge + No Contracts + Powerful Coverage</p>
+              <h2 className="title wow fadeInUp" data-wow-delay=".2s">Get High Speed Internet With RapidNet</h2>
+              <p className="wow fadeInUp" data-wow-delay=".4s">RapidNet Is One Of The Best Internet Service Provider in India</p>
               <div className="banner-price wow fadeInUp" data-wow-delay=".6s">
-                <h3 className="price">$25.00<sub>/Month</sub></h3>
+                {/* <h3 className="price">$25.00<sub>/Month</sub></h3> */}
               </div>
               <Link href="/pricing" className="btn wow fadeInUp">Get Started</Link>
             </div>
@@ -23,7 +23,7 @@ const HeroSection: React.FC = () => {
         </div>
         <div className="content">
           <span>Customer Service:</span>
-          <h5 className="number"><a href="tel:872670780">+1 872 923 025</a></h5>
+          <h5 className="number"><a href="tel:872670780">+91 9311380931</a></h5>
         </div>
       </div>
     </section>

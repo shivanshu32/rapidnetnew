@@ -20,7 +20,7 @@ const menu_data:menusType[] = [
   {
     id: 3,
     hasDropdown: false,
-    title: "Services",
+    title: "Why Choose Us",
     link: "/services",
     // submenus: [
     //   { title: "Our Services", link: "/services" },
@@ -30,7 +30,7 @@ const menu_data:menusType[] = [
   {
     id: 4,
     hasDropdown: true,
-    title: "Pages",
+    title: "Pricing",
     link: "/pricing",
     submenus: [
       { title: "Pricing", link: "/pricing" },
@@ -50,7 +50,7 @@ const menu_data:menusType[] = [
   {
     id: 5,
     hasDropdown: true,
-    title: "Blog",
+    title: "Plans",
     link: "/blogs",
     submenus: [
       { title: "Blog Standard", link: "/blogs" },
