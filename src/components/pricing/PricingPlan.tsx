@@ -42,20 +42,20 @@ const PricingPlan = ({customeClass}:classType) => {
                             </li>
                           ))}
                       </ul>
-                      <div className="price-wrap">
+                      {/* <div className="price-wrap">
                         <span> {item.start} </span>
                         <h3 className="price">
                           ${item.price}
                           <sub>/{item.time}</sub>
                         </h3>
-                      </div>
+                      </div> */}
                       <div className="pricing-btn">
-                        <Link
+                        {/* <Link
                           href="/checkout"
                           className="btn btn-link hover-underline"
                         >
                           Buy Plans
-                        </Link>
+                        </Link> */}
                       </div>
                     </div>
                   </div>

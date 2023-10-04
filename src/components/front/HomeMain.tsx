@@ -22,9 +22,9 @@ const HomeMain = () => {
       <OfferSection />
       <SubscribeSection />
       <FaqSection />
-      <TvShows />
-      <BlogSection />
-      <BrandSection paddingClass="" />
+      {/* <TvShows /> */}
+      {/* <BlogSection /> */}
+      {/* <BrandSection paddingClass="" /> */}
     </>
   );
 };

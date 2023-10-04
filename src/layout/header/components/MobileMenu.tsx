@@ -57,21 +57,21 @@ const MobileMenu = ({ setMenuOpen, menuOpen }: classType) => {
                             </li>
                             <li><Link href="/about">About</Link></li>
                             <li className={courses ? "has-droupdown active" : "has-droupdown"}>
-                                <a className='cursor-pointer' onClick={() => { openMobileMenu('courses'); }}>Services</a>
+                                <a className='cursor-pointer' onClick={() => { openMobileMenu('courses'); }}>Why Choose Us</a>
                                 <ul className={courses ? "sub-menu active" : "sub-menu"}>
                                     <li><Link href="/services">Services</Link></li>
                                     <li><Link href="/service-details">Services Details</Link></li>
                                 </ul>
                             </li>
                             <li className={blog ? "has-droupdown active" : "has-droupdown"}>
-                                <a className='cursor-pointer' onClick={() => { openMobileMenu('blog'); }}>Blogs</a>
+                                <a className='cursor-pointer' onClick={() => { openMobileMenu('blog'); }}>Pricing</a>
                                 <ul className={blog ? "sub-menu active" : "sub-menu"}>
                                     <li><Link href="/blogs">Blog</Link></li>
                                     <li><Link href="/blog-details">Blog Details</Link></li>
                                 </ul>
                             </li>
                             <li className={pages ? "has-droupdown active" : "has-droupdown"}>
-                                <a className='cursor-pointer' onClick={() => { openMobileMenu('pages'); }}>Pages</a>
+                                <a className='cursor-pointer' onClick={() => { openMobileMenu('pages'); }}>Plans</a>
                                 <ul className={pages ? "sub-menu active" : "sub-menu"}>
                                     <li><Link href="/pricing">Pricing</Link></li>
                                     <li><Link href="/team">Our Team</Link></li>
@@ -95,9 +95,9 @@ const MobileMenu = ({ setMenuOpen, menuOpen }: classType) => {
                         <div className="contact-list mb-30">
                             <h4>Contact Info</h4>
                             <ul>
-                                <li><i className="flaticon-location"></i> broklyn street road, New York</li>
-                                <li><i className="flaticon-email"></i> info@example.com</li>
-                                <li><i className="flaticon-clock"></i> Opening Time : 10: AM - 10 PM</li>
+                                <li><i className="flaticon-location"></i> Plot-22, Shakti Khand-2, Indrapuram, Ghaziabad, UP-201014, India</li>
+                                <li><i className="flaticon-email"></i> orp.Sales@RapidNetWorld.Com</li>
+                                <li><i className="flaticon-clock"></i> Opening Time : 9:00 AM - 6:00 PM</li>
                             </ul>
                             <div className="sidebar__menu--social">
                                 <Link href="https://www.facebook.com/"><i className="fab fa-facebook-f"></i></Link>

@@ -57,16 +57,16 @@ const ContactFormSection = () => {
                     <div className="col-lg-4">
                         <div className="contact-info-wrap">
                             <h3 className="contact-info-title">Direct Contact</h3>
-                            <p>We are the broadband internet service provider at New</p>
+                            {/* <p>We are the broadband internet service provider at New</p> */}
                             <ul className="contact-info-list">
-                                <li><i className="fas fa-phone-alt"></i><a href="tel:872670780">+1 872 670 780</a></li>
-                                <li><i className="flaticon-email"></i><a href="mailto:info@example.com">info@example.com</a></li>
-                                <li><i className="flaticon-location"></i><span>3741 Hamilton Drive Huntingtown, <br /> MD 20639</span></li>
+                                <li><i className="fas fa-phone-alt"></i><a href="tel:872670780">+91 +91 9311380931</a></li>
+                                <li><i className="flaticon-email"></i><a href="mailto:info@example.com">Corp.Sales@RapidNetWorld.Com</a></li>
+                                <li><i className="flaticon-location"></i><span>Plot-22, Shakti Khand-2, Indirapuram, Ghaziabad, UP-201014,  <br /> India</span></li>
                             </ul>
                         </div>
                         <div className="contact-info-wrap">
                             <h3 className="contact-info-title">Live Chat</h3>
-                            <p>We are the broadband internet service provider at New</p>
+                            <p>9:00am to 6:pm Monday-Saturday</p>
                             <div className="live-chat">
                                 <div className="icon"><i className="fas fa-comment"></i></div>
                                 <Link href="#" className="live-chat-link">Live Chat to Executive</Link>
