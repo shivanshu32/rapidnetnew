@@ -9,7 +9,7 @@ const PricingSection = () => {
         <div className="row justify-content-center">
           <div className="col-xl-5 col-lg-6 col-md-8">
             <div className="section-title text-center mb-50">
-              <h2 className="title">Why we're the best</h2>
+              <h2 className="title">Our Business Broadband Plans</h2>
             </div>
           </div>
         </div>

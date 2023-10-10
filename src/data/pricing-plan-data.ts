@@ -8,9 +8,9 @@ export const pricingPlan:PricingPlanItemType[] = [
     {
         id:1,
         img:thumb1,
-        title:"FTTH Network",
-        net:"",
-        speed:"High Speed",
+        title:"Basic",
+        net:"250",
+        speed:"MBPS",
         pricingList:[
             {
                 img:checkIcon,
@@ -26,15 +26,15 @@ export const pricingPlan:PricingPlanItemType[] = [
             },
         ],
         start:"Start From",
-        price:25.00,
+        price:599,
         time:"Month"
     },
     {
         id:2,
         img:thumb2,
-        title:"Free Intercom",
-        net:"",
-        speed:"Complementary",
+        title:"Silver",
+        net:"500",
+        speed:"MBPS",
         pricingList:[
             {
                 img:checkIcon,
@@ -50,15 +50,15 @@ export const pricingPlan:PricingPlanItemType[] = [
             },
         ],
         start:"Start From",
-        price:55.00,
+        price:899,
         time:"Month"
     },
     {
         id:3,
         img:thumb3,
-        title:"Stable Network",
-        net:"Unlimited",
-        speed:"MBPS",
+        title:"Gold",
+        net:"1",
+        speed:"GBPS",
         pricingList:[
             {
                 img:checkIcon,
@@ -74,79 +74,8 @@ export const pricingPlan:PricingPlanItemType[] = [
             },
         ],
         start:"Start From",
-        price:95.00,
+        price:1499,
         time:"Month"
     },
-    {
-        id:4,
-        img:thumb3,
-        title:"Prompt Service",
-        net:"Unlimited",
-        speed:"MBPS",
-        pricingList:[
-            {
-                img:checkIcon,
-                list:"Unlimited Devices Allowed"
-            },
-            {
-                img:checkIcon,
-                list:"Any Devices"
-            },
-            {
-                img:checkIcon,
-                list:"Fixed IP"
-            },
-        ],
-        start:"Start From",
-        price:95.00,
-        time:"Month"
-    },
-    {
-        id:5,
-        img:thumb3,
-        title:"Auto Renewal",
-        net:"Unlimited",
-        speed:"MBPS",
-        pricingList:[
-            {
-                img:checkIcon,
-                list:"Unlimited Devices Allowed"
-            },
-            {
-                img:checkIcon,
-                list:"Any Devices"
-            },
-            {
-                img:checkIcon,
-                list:"Fixed IP"
-            },
-        ],
-        start:"Start From",
-        price:95.00,
-        time:"Month"
-    },
-    {
-        id:6,
-        img:thumb3,
-        title:"100% Fibre",
-        net:"Unlimited",
-        speed:"MBPS",
-        pricingList:[
-            {
-                img:checkIcon,
-                list:"Unlimited Devices Allowed"
-            },
-            {
-                img:checkIcon,
-                list:"Any Devices"
-            },
-            {
-                img:checkIcon,
-                list:"Fixed IP"
-            },
-        ],
-        start:"Start From",
-        price:95.00,
-        time:"Month"
-    },
+    
 ]
