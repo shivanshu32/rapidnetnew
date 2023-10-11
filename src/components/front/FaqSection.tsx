@@ -18,13 +18,13 @@ const FaqSection = () => {
                                     <h2 className="accordion-header" id="headingOne">
                                         <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
                                             aria-expanded="true" aria-controls="collapseOne">
-                                            Do I have to be an existing T-Mobile customer?
+                                            Do I have to be an existing Rapidnet customer?
                                         </button>
                                     </h2>
                                     <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne"
                                         data-bs-parent="#accordionExample">
                                         <div className="accordion-body">
-                                            Yes! {`You'll`} be able to use your T-Mobile Home Internet to connect your computer, phone, and numerous other devices in your home simultaneously. People over time-we appreciate your patience! As soon as {`we're`} ready for you, {`we'll`} let you know
+                                            Yes! {`You'll`} be able to use your Rapidnet Business Internet to connect your computer, phone, and numerous other devices simultaneously. 
                                         </div>
                                     </div>
                                 </div>
@@ -32,13 +32,13 @@ const FaqSection = () => {
                                     <h2 className="accordion-header" id="headingTwo">
                                         <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                             data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                            What is a commercial on-line service?
+                                            How much monthly plan cost?
                                         </button>
                                     </h2>
                                     <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo"
                                         data-bs-parent="#accordionExample">
                                         <div className="accordion-body">
-                                            Yes! {`You'll`} be able to use your T-Mobile Home Internet to connect your computer, phone, and numerous other devices in your home simultaneously. People over time-we appreciate your patience! As soon as {`we're`} ready for you, {`we'll`} let you know
+                                          Our business broadband plan starts from 599 per month
                                         </div>
                                     </div>
                                 </div>
@@ -46,42 +46,42 @@ const FaqSection = () => {
                                     <h2 className="accordion-header" id="headingThree">
                                         <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                             data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                            How much does the T-Mobile Home Internet plan cost?
+                                            What areas you cover
                                         </button>
                                     </h2>
                                     <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree"
                                         data-bs-parent="#accordionExample">
                                         <div className="accordion-body">
-                                            Yes! {`You'll`} be able to use your T-Mobile Home Internet to connect your computer, phone, and numerous other devices in your home simultaneously. People over time-we appreciate your patience! As soon as {`we're`} ready for you, {`we'll`} let you know
-                                        </div>
+                                            Rapidnet business broadband services are available across Delhi NCR
+                                                                                    </div>
                                     </div>
                                 </div>
                                 <div className="accordion-item">
                                     <h2 className="accordion-header" id="headingFour">
                                         <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                             data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                            How can I get Internet for my business?
+                                            Do you offer Home broadband services?
                                         </button>
                                     </h2>
                                     <div id="collapseFour" className="accordion-collapse collapse" aria-labelledby="headingFour"
                                         data-bs-parent="#accordionExample">
                                         <div className="accordion-body">
-                                            Yes! {`You'll`} be able to use your T-Mobile Home Internet to connect your computer, phone, and numerous other devices in your home simultaneously. People over time-we appreciate your patience! As soon as {`we're`} ready for you, {`we'll`} let you know
-                                        </div>
+                                           Rapidnet is lauching home broadband services soon.
+                                                         </div>
                                     </div>
                                 </div>
                                 <div className="accordion-item">
                                     <h2 className="accordion-header" id="headingFive">
                                         <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                             data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                            When do you expect to roll out more markets?
+                                            How to get new connection?
                                         </button>
                                     </h2>
                                     <div id="collapseFive" className="accordion-collapse collapse" aria-labelledby="headingFive"
                                         data-bs-parent="#accordionExample">
                                         <div className="accordion-body">
-                                            Yes! {`You'll`} be able to use your T-Mobile Home Internet to connect your computer, phone, and numerous other devices in your home simultaneously. People over time-we appreciate your patience! As soon as {`we're`} ready for you, {`we'll`} let you know
-                                        </div>
+                                           Please get in touch with contact details provided in website.
+                                                        </div>
                                     </div>
                                 </div>
                             </div>

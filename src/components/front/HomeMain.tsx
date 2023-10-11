@@ -16,7 +16,7 @@ const HomeMain = () => {
     <>
       <HeroSection />
       <PricingSection />
-      <ExperienceSection />
+      {/* <ExperienceSection /> */}
       <ServiceSection />
       <BannerSection />
       <OfferSection />
