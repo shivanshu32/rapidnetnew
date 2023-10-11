@@ -35,24 +35,25 @@ const Footer = () => {
                         <div className="col-2">
                             <div className="footer-widget">
                                 <div className="fw-title">
-                                    <h4 className="title">Categories</h4>
+                                    <h4 className="title">Quick Links</h4>
                                 </div>
                                 <ul className="fw-list">
-                                    <li><Link href="/service-details">Laptops & Computers</Link></li>
-                                    <li><Link href="/service-details">Home & Life Style</Link></li>
-                                    <li><Link href="/service-details">{`Men's`} Fashion</Link></li>
-                                    <li><Link href="/service-details">{`Women's`} Fashion</Link></li>
-                                    <li><Link href="/service-details">Sport & Gyms</Link></li>
+                                    <li><Link href="/service-details">Home</Link></li>
+                                    <li><Link href="/service-details">About</Link></li>
+                                    <li><Link href="/service-details">Why Choose Us</Link></li>
+                                    <li><Link href="/service-details">Pricing</Link></li>
+                                    <li><Link href="/service-details">Plans</Link></li>
+                        
                                 </ul>
                             </div>
                         </div>
                         <div className="col-2">
                             <div className="footer-widget">
                                 <div className="fw-title">
-                                    <h4 className="title">About Company</h4>
+                                    <h4 className="title">About Rapidnet</h4>
                                 </div>
                                 <ul className="fw-list">
-                                    <li><Link href="/about-us">About Company</Link></li>
+                                    <li><Link href="/about-us">Who we are</Link></li>
                                     <li><Link href="/contact">Contact Us</Link></li>
                                     <li><Link href="/privacy-policy">Privacy policy</Link></li>
                                     <li><Link href="/privacy-policy">Terms & Conditions</Link></li>
@@ -66,9 +67,9 @@ const Footer = () => {
                                     <h4 className="title">Service Schedule</h4>
                                 </div>
                                 <ul className="fw-schedule-list">
-                                    <li>Saturday - Sunday - Mon <span>8:30 AM - 10 PM</span></li>
-                                    <li>Tuesday - Wed - Thurs <span>9:30 AM - 12 PM</span></li>
-                                    <li>Friday : <span className="close">Closed</span></li>
+                                    <li>Monday - Saturday <span>8 AM - 10 PM</span></li>
+                                    {/* <li>Tuesday - Wed - Thurs <span>9:30 AM - 12 PM</span></li> */}
+                                    <li>Sunday : <span className="close">Closed</span></li>
                                 </ul>
                             </div>
                         </div>

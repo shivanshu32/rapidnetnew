@@ -19,10 +19,10 @@ const SubscribeSection = () => {
                             <h2 className="title">Enjoy Sports Movies, TV Shows & More</h2>
                         </div>
                         <div className="subscribe-content">
-                            <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there {`isn't`} anything hidden in the middle of text</p>
-                            <h4 className="title"><span>Subscribe Netbox TV Box & Get</span> FREE Wi-Fi For 1 Month</h4>
+                            <p>Get highspeed business broadband services fully cutomized for your requirements </p>
+                            <h4 className="title"><span>Subscribe Rapidnet Broadband</span> FREE Wi-Fi For 1 Month</h4>
                             <div className="subscribe-plan">
-                                <h2 className="price"><span>Only</span> $89<sub>/Mon</sub></h2>
+                                <h2 className="price"><span>Only</span> ₹ 599<sub>/Mon</sub></h2>
                                 <Link href="/pricing" className="btn btn-link">View All Plans</Link>
                             </div>
                         </div>
