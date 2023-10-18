@@ -11,20 +11,20 @@ export const pricingPlan:PricingPlanItemType[] = [
         title:"Basic",
         net:"250",
         speed:"MBPS",
-        pricingList:[
-            {
-                img:checkIcon,
-                list:"Single Device Uses"
-            },
-            {
-                img:checkIcon,
-                list:"Phone & Computer"
-            },
-            {
-                img:checkIcon,
-                list:"Random IP"
-            },
-        ],
+        // pricingList:[
+        //     {
+        //         img:checkIcon,
+        //         list:"Single Device Uses"
+        //     },
+        //     {
+        //         img:checkIcon,
+        //         list:"Phone & Computer"
+        //     },
+        //     {
+        //         img:checkIcon,
+        //         list:"Random IP"
+        //     },
+        // ],
         start:"Start From",
         price:599,
         time:"Month"
@@ -35,20 +35,20 @@ export const pricingPlan:PricingPlanItemType[] = [
         title:"Silver",
         net:"500",
         speed:"MBPS",
-        pricingList:[
-            {
-                img:checkIcon,
-                list:"20 Devices Allowed"
-            },
-            {
-                img:checkIcon,
-                list:"Phone, Computer & TV"
-            },
-            {
-                img:checkIcon,
-                list:"Random IP"
-            },
-        ],
+        // pricingList:[
+        //     {
+        //         img:checkIcon,
+        //         list:"20 Devices Allowed"
+        //     },
+        //     {
+        //         img:checkIcon,
+        //         list:"Phone, Computer & TV"
+        //     },
+        //     {
+        //         img:checkIcon,
+        //         list:"Random IP"
+        //     },
+        // ],
         start:"Start From",
         price:899,
         time:"Month"
@@ -59,20 +59,20 @@ export const pricingPlan:PricingPlanItemType[] = [
         title:"Gold",
         net:"1",
         speed:"GBPS",
-        pricingList:[
-            {
-                img:checkIcon,
-                list:"Unlimited Devices Allowed"
-            },
-            {
-                img:checkIcon,
-                list:"Any Devices"
-            },
-            {
-                img:checkIcon,
-                list:"Fixed IP"
-            },
-        ],
+        // pricingList:[
+        //     {
+        //         img:checkIcon,
+        //         list:"Unlimited Devices Allowed"
+        //     },
+        //     {
+        //         img:checkIcon,
+        //         list:"Any Devices"
+        //     },
+        //     {
+        //         img:checkIcon,
+        //         list:"Fixed IP"
+        //     },
+        // ],
         start:"Start From",
         price:1499,
         time:"Month"

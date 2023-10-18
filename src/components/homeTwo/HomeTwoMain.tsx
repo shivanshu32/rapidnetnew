@@ -12,10 +12,12 @@ import FaqSection from "../front/FaqSection";
 import BlogSection from "../front/BlogSection";
 import BrandSection from "../front/BrandSection";
 
+
 const HomeTwoMain = () => {
     return (
         <>
             <HeroSectionTwo />
+            {/* <FaqCta /> */}
             <PricingSectionTwo />
             <ExperienceScetionTwo />
             <ServiceSectionTwo />

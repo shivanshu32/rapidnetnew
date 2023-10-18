@@ -64,18 +64,8 @@ const ContactFormSection = () => {
                                 <li><i className="flaticon-location"></i><span>Plot-22, Shakti Khand-2, Indirapuram, Ghaziabad, UP-201014,  <br /> India</span></li>
                             </ul>
                         </div>
-                        <div className="contact-info-wrap">
-                            <h3 className="contact-info-title">Live Chat</h3>
-                            <p>9:00am to 6:pm Monday-Saturday</p>
-                            <div className="live-chat">
-                                <div className="icon"><i className="fas fa-comment"></i></div>
-                                <Link href="#" className="live-chat-link">Live Chat to Executive</Link>
-                            </div>
-                        </div>
-                        <div className="contact-info-wrap">
-                            <h3 className="contact-info-title">Not interested to talk?</h3>
-                            <p>Please check out or best suggested <Link href="/faq">Help Center & FAQ</Link></p>
-                        </div>
+                        
+                        
                     </div>
                 </div>
             </div>

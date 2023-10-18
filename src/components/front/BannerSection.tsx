@@ -9,7 +9,7 @@ const BannerSection = () => {
                     <div className="col-xl-9 col-lg-10">
                         <div className="cta-content text-center">
                             <div className="section-title white-title mb-35">
-                                <h2 className="title">Need Fast & Secure Broadband? Use Netbox & The Real Network</h2>
+                                <h2 className="title">Need Fast & Secure Broadband? <br />Use Rapidnet, Delhi NCR's No.1 Service</h2>
                             </div>
                             <div className="cta-btn-wrap">
                                 <Link href="/pricing" className="btn">View our Plans</Link>

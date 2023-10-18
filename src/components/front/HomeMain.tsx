@@ -10,18 +10,21 @@ import TvShows from "./TvShows";
 import BlogSection from "./BlogSection";
 import BrandSection from "./BrandSection";
 import ExperienceSection from "./ExperienceSection";
+import FaqCta from '../faq/FaqCta';
 
 const HomeMain = () => {
   return (
     <>
       <HeroSection />
+     
       <PricingSection />
       {/* <ExperienceSection /> */}
       <ServiceSection />
       <BannerSection />
       <OfferSection />
       <SubscribeSection />
-      <FaqSection />
+      {/* <FaqSection /> */}
+      <FaqCta />
       {/* <TvShows /> */}
       {/* <BlogSection /> */}
       {/* <BrandSection paddingClass="" /> */}

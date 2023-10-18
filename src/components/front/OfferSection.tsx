@@ -29,7 +29,7 @@ const OfferSection = () => {
                                 <h2 className="special-price"><sup>₹</sup>599<sub>Monthly</sub></h2>
                                 <p className="trial-link"><i className="flaticon-satellite-dish"></i><Link href="/contact">Launching Soon</Link></p>
                             </div>
-                            <Link href="/pricing" className="btn transparent-btn">Get started</Link>
+                            {/* <Link href="/pricing" className="btn transparent-btn">Get started</Link> */}
                         </div>
                     </div>
                 </div>

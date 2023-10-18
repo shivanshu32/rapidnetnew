@@ -9,8 +9,8 @@ const ContactMain = () => {
         <>
             <Breadcrumb title="Contact Us" subTitle="Contact Us" />
             <ContactFormSection />
-            <ContactMap />
-            <BrandSection paddingClass="pt-120" />
+            {/* <ContactMap /> */}
+            {/* <BrandSection paddingClass="pt-120" /> */}
         </>
     );
 };

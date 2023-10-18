@@ -7,7 +7,7 @@ const FaqCta = () => {
                 <div className="row justify-content-center">
                     <div className="col-xl-7 col-lg-8">
                         <div className="section-title text-center white-title mb-50">
-                            <h2 className="title">Still You Need Help to Know More Queries?</h2>
+                            <h2 className="title">Check ability to connect our services in your area</h2>
                         </div>
                     </div>
                 </div>
@@ -18,17 +18,17 @@ const FaqCta = () => {
                                 <div className="row">
                                     <div className="col">
                                         <div className="form-grp">
-                                            <input type="text" placeholder="Your Name"/>
+                                            <input type="text" placeholder="Name"/>
                                         </div>
                                     </div>
                                     <div className="col">
                                         <div className="form-grp">
-                                            <input type="email" placeholder="Your Email"/>
+                                            <input type="number" placeholder="Pincode"/>
                                         </div>
                                     </div>
                                     <div className="col">
                                         <div className="form-grp">
-                                            <input type="text" placeholder="Question"/>
+                                            <input type="number" placeholder="Mobile No."/>
                                         </div>
                                     </div>
                                     <div className="col">

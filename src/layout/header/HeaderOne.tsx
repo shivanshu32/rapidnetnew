@@ -15,7 +15,7 @@ const HeaderOne = () => {
 
   return (
     <header>
-      <HeaderTopBar />
+      {/* <HeaderTopBar /> */}
       <div
         id="sticky-header"
         className={`menu-area ${
@@ -52,9 +52,14 @@ const HeaderOne = () => {
                       {/* <ShoppingCart /> */}
                       <li className="header-btn">
                         <Link href="/contact" className="btn transparent-btn">
-                          Get a Quote
+                          My Account
+                        </Link>
+                        &nbsp; &nbsp;
+                        <Link href="/contact" className="btn transparent-btn">
+                          Quick Pay
                         </Link>
                       </li>
+                      
                     </ul>
                   </div>
                 </nav>
