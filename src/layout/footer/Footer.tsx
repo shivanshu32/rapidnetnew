@@ -38,11 +38,11 @@ const Footer = () => {
                                     <h4 className="title">Quick Links</h4>
                                 </div>
                                 <ul className="fw-list">
-                                    <li><Link href="/service-details">Home</Link></li>
-                                    <li><Link href="/service-details">About</Link></li>
-                                    <li><Link href="/service-details">Why Choose Us</Link></li>
-                                    <li><Link href="/service-details">Pricing</Link></li>
-                                    <li><Link href="/service-details">Plans</Link></li>
+                                    <li><Link href="/">Home</Link></li>
+                                    <li><Link href="/">Broadband</Link></li>
+                                    <li><Link href="/">Leased Line</Link></li>
+                                    <li><Link href="/">Owners & Developers</Link></li>
+                                    <li><Link href="/">Contact</Link></li>
                         
                                 </ul>
                             </div>
@@ -50,14 +50,13 @@ const Footer = () => {
                         <div className="col-2">
                             <div className="footer-widget">
                                 <div className="fw-title">
-                                    <h4 className="title">About Rapidnet</h4>
+                                    <h4 className="title">About </h4>
                                 </div>
                                 <ul className="fw-list">
-                                    <li><Link href="/about-us">Who we are</Link></li>
-                                    <li><Link href="/contact">Contact Us</Link></li>
-                                    <li><Link href="/privacy-policy">Privacy policy</Link></li>
-                                    <li><Link href="/privacy-policy">Terms & Conditions</Link></li>
-                                    <li><Link href="/about-us">Mission & Vision</Link></li>
+                                   
+                                    <li><Link href="/">Privacy policy</Link></li>
+                                    <li><Link href="/">Terms & Conditions</Link></li>
+                                  
                                 </ul>
                             </div>
                         </div>
