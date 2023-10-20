@@ -50,33 +50,35 @@ const MobileMenu = ({ setMenuOpen, menuOpen }: classType) => {
                         <ul>
                             <li className={home ? "has-droupdown active" : "has-droupdown"}>
                                 <a className='cursor-pointer' onClick={() => { openMobileMenu('home'); }}>Home</a>
-                                <ul className={home ? "sub-menu active" : "sub-menu"}>
+                                {/* <ul className={home ? "sub-menu active" : "sub-menu"}>
                                     <li><Link href="/">Home Style 1</Link></li>
                                     <li><Link href="/home-two">Home Style 2</Link></li>
-                                </ul>
+                                </ul> */}
                             </li>
-                            <li><Link href="/about">About</Link></li>
-                            <li className={courses ? "has-droupdown active" : "has-droupdown"}>
+                            <li><Link href="/about">Broadband</Link></li>
+                            <li><Link href="/about">Leased Lines</Link></li>
+                         
+                            {/* <li className={courses ? "has-droupdown active" : "has-droupdown"}>
                                 <a className='cursor-pointer' onClick={() => { openMobileMenu('courses'); }}>Why Choose Us</a>
                                 <ul className={courses ? "sub-menu active" : "sub-menu"}>
                                     <li><Link href="/services">Services</Link></li>
                                     <li><Link href="/service-details">Services Details</Link></li>
                                 </ul>
-                            </li>
-                            <li className={blog ? "has-droupdown active" : "has-droupdown"}>
-                                <a className='cursor-pointer' onClick={() => { openMobileMenu('blog'); }}>Pricing</a>
+                            </li> */}
+                            {/* <li className={blog ? "has-droupdown active" : "has-droupdown"}>
+                                <a className='cursor-pointer' onClick={() => { openMobileMenu('blog'); }}>Leased Lines</a>
                                 <ul className={blog ? "sub-menu active" : "sub-menu"}>
                                     <li><Link href="/blogs">Blog</Link></li>
                                     <li><Link href="/blog-details">Blog Details</Link></li>
                                 </ul>
-                            </li>
+                            </li> */}
                             <li className={pages ? "has-droupdown active" : "has-droupdown"}>
-                                <a className='cursor-pointer' onClick={() => { openMobileMenu('pages'); }}>Plans</a>
+                                <a className='cursor-pointer' onClick={() => { openMobileMenu('pages'); }}>Owners & Developers</a>
                                 <ul className={pages ? "sub-menu active" : "sub-menu"}>
-                                    <li><Link href="/pricing">Pricing</Link></li>
-                                    <li><Link href="/team">Our Team</Link></li>
-                                    <li><Link href="/faq">Faq</Link></li>
-                                    <li><Link href="/shop">Our Shop</Link></li>
+                                    <li><Link href="/">Sectors</Link></li>
+                                    <li><Link href="/">Our Coverage Map</Link></li>
+                                    <li><Link href="/">How Rapidnet Works</Link></li>
+                                    {/* <li><Link href="/shop">Our Shop</Link></li>
                                     <li><Link href="/shop-details">Shop Details</Link></li>
                                     <li><Link href="/cart">Cart</Link></li>
                                     <li><Link href="/wishlist">Wishlist</Link></li>
@@ -85,7 +87,7 @@ const MobileMenu = ({ setMenuOpen, menuOpen }: classType) => {
                                     <li><Link href="/refund-policy">Refund Policy</Link></li>
                                     <li><Link href="/signin">Sign In</Link></li>
                                     <li><Link href="/signup">Sign Up</Link></li>
-                                    <li><Link href="/error">Error page</Link></li>
+                                    <li><Link href="/error">Error page</Link></li> */}
                                 </ul>
                             </li>
                             <li><Link href="/contact">Contact</Link></li>
