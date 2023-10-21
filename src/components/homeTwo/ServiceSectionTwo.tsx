@@ -24,7 +24,7 @@ const ServiceSectionTwo = () => {
                                 <div className="services-content">
                                     <h3 className="title"><Link href={`/service-details/${item.id}`}>{item.title}</Link></h3>
                                     <p>{item.teaser}</p>
-                                    <Link href={`/service-details/${item.id}`} className="btn btn-link hover-underline">{item.btn}</Link>
+                                    <Link href={`/service-details/${item.id}`} className="btn btn-link hover-underline"></Link>
                                 </div>
                             </div>
                         </div>
