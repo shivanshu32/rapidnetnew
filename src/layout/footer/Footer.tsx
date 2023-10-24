@@ -63,12 +63,12 @@ const Footer = () => {
                         <div className="col-1">
                             <div className="footer-widget">
                                 <div className="fw-title">
-                                    <h4 className="title">Service Schedule</h4>
+                                    <h4 className="title"></h4>
                                 </div>
                                 <ul className="fw-schedule-list">
-                                    <li>Monday - Saturday <span>8 AM - 10 PM</span></li>
+                                    <li> <span></span></li>
                                     {/* <li>Tuesday - Wed - Thurs <span>9:30 AM - 12 PM</span></li> */}
-                                    <li>Sunday : <span className="close">Closed</span></li>
+                                    <li> <span className="close"></span></li>
                                 </ul>
                             </div>
                         </div>
