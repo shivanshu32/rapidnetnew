@@ -1,16 +1,16 @@
 import React from 'react';
 import Breadcrumb from '../common/breadcrumb/Breadcrumb';
-import PrivacyPolicySection from './PrivacyPolicySection';
+import RefundPolicySection from './RefundPolicySection';
 import BrandSection from '../front/BrandSection';
 
-const PrivacyPolicyMain = () => {
+const RefundPolicyMain = () => {
     return (
         <>
-            <Breadcrumb title="Privacy Policy" subTitle="Privacy Policy" />
-            <PrivacyPolicySection />
+            <Breadcrumb title="Fair Use Policy" subTitle="Fair Use Policy" />
+            <RefundPolicySection />
             {/* <BrandSection paddingClass="" /> */}
         </>
     );
 };
 
-export default PrivacyPolicyMain;
+export default RefundPolicyMain;

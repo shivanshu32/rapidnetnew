@@ -15,13 +15,13 @@ const menu_data:menusType[] = [
     id: 2,
     hasDropdown: false,
     title: "Broadband",
-    link: "/",
+    link: "/broadband",
   },
   {
     id: 3,
     hasDropdown: false,
     title: "Leased Lines",
-    link: "/",
+    link: "/leased-lines",
     // submenus: [
     //   { title: "Our Services", link: "/services" },
     //   { title: "Service Details", link: "/service-details" },
@@ -34,9 +34,9 @@ const menu_data:menusType[] = [
     // link: "/pricing",
     link: "/",
     submenus: [
-      { title: "Sectors", link: "/" },
-      { title: "Our Coverage Map", link: "/" },
-      { title: "How Rapidnet Works", link: "/" },
+      { title: "Sectors", link: "/sectors" },
+      { title: "Our Coverage Map", link: "/our-coverage-map" },
+      { title: "How Rapidnet Works", link: "/how-rapidnet-works" },
       // { title: "Our Shop", link: "/shop" },
       // { title: "Shop Details", link: "/shop-details" },
       // { title: "Cart", link: "/cart" },

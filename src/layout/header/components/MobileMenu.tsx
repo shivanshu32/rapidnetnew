@@ -48,15 +48,16 @@ const MobileMenu = ({ setMenuOpen, menuOpen }: classType) => {
                 <div className="side-info-content">
                     <div className="mm-menu">
                         <ul>
-                            <li className={home ? "has-droupdown active" : "has-droupdown"}>
+                        <li><Link href="/">Home</Link></li>
+                            {/* <li className={home ? "has-droupdown active" : "has-droupdown"}>
                                 <a className='cursor-pointer' onClick={() => { openMobileMenu('home'); }}>Home</a>
                                 {/* <ul className={home ? "sub-menu active" : "sub-menu"}>
                                     <li><Link href="/">Home Style 1</Link></li>
                                     <li><Link href="/home-two">Home Style 2</Link></li>
                                 </ul> */}
-                            </li>
-                            <li><Link href="/about">Broadband</Link></li>
-                            <li><Link href="/about">Leased Lines</Link></li>
+                            {/* </li> */} 
+                            <li><Link href="/broadband">Broadband</Link></li>
+                            <li><Link href="/leased-lines">Leased Lines</Link></li>
                          
                             {/* <li className={courses ? "has-droupdown active" : "has-droupdown"}>
                                 <a className='cursor-pointer' onClick={() => { openMobileMenu('courses'); }}>Why Choose Us</a>
@@ -75,9 +76,9 @@ const MobileMenu = ({ setMenuOpen, menuOpen }: classType) => {
                             <li className={pages ? "has-droupdown active" : "has-droupdown"}>
                                 <a className='cursor-pointer' onClick={() => { openMobileMenu('pages'); }}>Owners & Developers</a>
                                 <ul className={pages ? "sub-menu active" : "sub-menu"}>
-                                    <li><Link href="/">Sectors</Link></li>
-                                    <li><Link href="/">Our Coverage Map</Link></li>
-                                    <li><Link href="/">How Rapidnet Works</Link></li>
+                                    <li><Link href="/sectors">Sectors</Link></li>
+                                    <li><Link href="/our-coverage-map">Our Coverage Map</Link></li>
+                                    <li><Link href="/how-rapidnet-works">How Rapidnet Works</Link></li>
                                     {/* <li><Link href="/shop">Our Shop</Link></li>
                                     <li><Link href="/shop-details">Shop Details</Link></li>
                                     <li><Link href="/cart">Cart</Link></li>
