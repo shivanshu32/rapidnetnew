@@ -9,6 +9,7 @@ import BrandSection from "../front/BrandSection";
 
 import ServiceSection from "../front/ServiceSection";
 import PricingSection from "../front/PricingSection";
+import FaqCta from '../faq/FaqCta';
 
 import OfferSection from "../front/OfferSection";
 import SubscribeSection from "../front/SubscribeSection";
@@ -19,6 +20,7 @@ const AboutMain = () => {
             <Breadcrumb title="Sectors" subTitle="Sectors" />
             {/* <AboutSection /> */}
             <PricingSection />
+            <FaqCta />
             <AboutFactSection />
             <BannerSection />
             {/* <SkillSection /> */}
