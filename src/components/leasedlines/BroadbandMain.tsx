@@ -9,6 +9,7 @@ import BrandSection from "../front/BrandSection";
 
 import ServiceSection from "../front/ServiceSection";
 import PricingSection from "../front/PricingSection";
+import FaqCta from '../faq/FaqCta';
 
 import OfferSection from "../front/OfferSection";
 import SubscribeSection from "../front/SubscribeSection";
@@ -16,9 +17,10 @@ import SubscribeSection from "../front/SubscribeSection";
 const AboutMain = () => {
     return (
         <>
-            <Breadcrumb title="Broadband" subTitle="Broadband" />
+            <Breadcrumb title="Leased Lines" subTitle="Leased Lines" />
             {/* <AboutSection /> */}
-            <PricingSection />
+            {/* <PricingSection /> */}
+            < FaqCta />
             <AboutFactSection />
             <BannerSection />
             {/* <SkillSection /> */}
