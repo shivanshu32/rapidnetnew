@@ -10,7 +10,7 @@ const HeaderTopBar = () => {
                         <div className="header-top-left">
                             <ul>
                                 <li className="d-none d-xl-flex"><i className="flaticon-location"></i> Plot-22, Shakti Khand-2, Indrapuram, Ghaziabad, UP-201014, India</li>
-                                <li className="d-none d-lg-flex"><i className="flaticon-email"></i> Corp.Sales@RapidNetWorld.Com</li>
+                                <li className="d-none d-lg-flex"><i className="flaticon-email"></i> corp.Sales@RapidNetWorld.Com</li>
                                 {/* <li><i className="flaticon-clock"></i> Opening Time : 10: AM - 10 PM</li> */}
                             </ul>
                         </div>

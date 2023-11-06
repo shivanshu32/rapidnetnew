@@ -14,19 +14,19 @@ const menu_data:menusType[] = [
   {
     id: 2,
     hasDropdown: false,
-    title: "Broadband",
-    link: "/broadband",
+    title: "Business",
+    link: "/business",
   },
-  {
-    id: 3,
-    hasDropdown: false,
-    title: "Leased Lines",
-    link: "/leased-lines",
-    // submenus: [
-    //   { title: "Our Services", link: "/services" },
-    //   { title: "Service Details", link: "/service-details" },
-    // ],
-  },
+  // {
+  //   id: 3,
+  //   hasDropdown: false,
+  //   title: "Leased Lines",
+  //   link: "/leased-lines",
+  //   // submenus: [
+  //   //   { title: "Our Services", link: "/services" },
+  //   //   { title: "Service Details", link: "/service-details" },
+  //   // ],
+  // },
   {
     id: 4,
     hasDropdown: true,

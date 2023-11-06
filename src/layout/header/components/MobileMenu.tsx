@@ -56,8 +56,8 @@ const MobileMenu = ({ setMenuOpen, menuOpen }: classType) => {
                                     <li><Link href="/home-two">Home Style 2</Link></li>
                                 </ul> */}
                             {/* </li> */} 
-                            <li><Link href="/broadband">Broadband</Link></li>
-                            <li><Link href="/leased-lines">Leased Lines</Link></li>
+                            <li><Link href="/business">Business</Link></li>
+                            {/* <li><Link href="/leased-lines">Leased Lines</Link></li> */}
                          
                             {/* <li className={courses ? "has-droupdown active" : "has-droupdown"}>
                                 <a className='cursor-pointer' onClick={() => { openMobileMenu('courses'); }}>Why Choose Us</a>

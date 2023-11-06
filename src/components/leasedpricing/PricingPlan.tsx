@@ -1,4 +1,4 @@
-import { pricingPlan } from '@/data/pricing-plan-data';
+import { pricingPlan } from '@/data/leased-pricing-plan-data';
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
