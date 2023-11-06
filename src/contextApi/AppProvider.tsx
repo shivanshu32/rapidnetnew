@@ -3,6 +3,8 @@
 import React, { createContext, useState } from 'react';
 import { AppContextType } from '@/interFace/interFace';
 
+
+
 export const AppContext = createContext<AppContextType | undefined>(undefined);
 const AppProvider = ({ children }: { children: React.ReactNode }) => {
   const [sideMenuOpen, setSideMenuOpen] = useState<boolean>(false);
@@ -18,6 +20,8 @@ const AppProvider = ({ children }: { children: React.ReactNode }) => {
     scrollDirection,
     setScrollDirection
   };
+
+  
  
   return (
     <AppContext.Provider value={contextValue}>

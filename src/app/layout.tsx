@@ -4,6 +4,7 @@ import AppProvider from '@/contextApi/AppProvider'
 import ReduxProvider from '@/redux/provider'
 import { ToastContainer } from 'react-toastify'
 
+
 export const metadata = {
   title: 'Rapidnet - The Next-Gen Broadband ',
   description: '',
@@ -31,12 +32,11 @@ export default function RootLayout({
 
         <body>
           <ReduxProvider>
-
             <AppProvider>
               {children}
             </AppProvider>
             <ToastContainer />
-          </ReduxProvider>
+          </ReduxProvider>        
         </body>
       </html>
     </>
