@@ -39,8 +39,8 @@ const Footer = () => {
                                 </div>
                                 <ul className="fw-list">
                                     <li><Link href="/">Home</Link></li>
-                                    <li><Link href="/broadband">Broadband</Link></li>
-                                    <li><Link href="/leased-lines">Leased Line</Link></li>
+                                    <li><Link href="/business">Business</Link></li>
+                                    <li><Link href="/our-coverage-map">Our Coverage Map</Link></li>
                                    
                                     <li><Link href="/contact">Contact</Link></li>
                         
@@ -50,14 +50,15 @@ const Footer = () => {
                         <div className="col-2">
                             <div className="footer-widget">
                                 <div className="fw-title">
-                                    <h4 className="title">Policies</h4>
+                                    <h4 className="title">Legal</h4>
                                 </div>
                                 <ul className="fw-list">
-                                   
+                                <li><Link href="/privacy-policy">Privacy Policy</Link></li>
                                     <li><Link href="/terms-and-conditions">Terms & Conditions</Link></li>
-                                    <li><Link href="/cancellation-policy">Cancellation Policy</Link></li>
-                                    <li><Link href="/privacy-policy">Privacy & Cookie Policy</Link></li>
+                                    
+                                    
                                     <li><Link href="/fair-use-policy">Fair Use Policy</Link></li>
+                                    <li><Link href="/cancellation-policy">Cancellation Policy</Link></li>
                                   
                                 </ul>
                             </div>
