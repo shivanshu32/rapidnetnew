@@ -22,7 +22,7 @@ const HomeMain = () => {
       <ServiceSection />
       <BannerSection />
       <OfferSection />
-      <SubscribeSection />
+      {/* <SubscribeSection /> */}
       {/* <FaqSection /> */}
       <FaqCta />
       {/* <TvShows /> */}
