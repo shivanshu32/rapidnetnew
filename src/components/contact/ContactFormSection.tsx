@@ -60,7 +60,7 @@ const ContactFormSection = () => {
                             {/* <p>We are the broadband internet service provider at New</p> */}
                             <ul className="contact-info-list">
                                 <li><i className="fas fa-phone-alt"></i><a href="tel:872670780">+91 +91 9311380931</a></li>
-                                <li><i className="flaticon-email"></i><a href="mailto:info@example.com">Corp.Sales@RapidNetWorld.Com</a></li>
+                                <li><i className="flaticon-email"></i><a href="mailto:info@example.com">corp.Sales@RapidNetWorld.Com</a></li>
                                 <li><i className="flaticon-location"></i><span>Plot-22, Shakti Khand-2, Indirapuram, Ghaziabad, UP-201014,  <br /> India</span></li>
                             </ul>
                         </div>

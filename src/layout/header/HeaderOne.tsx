@@ -50,7 +50,7 @@ const HeaderOne = () => {
                   <div className="header-action">
                     <ul>
                       {/* <ShoppingCart /> */}
-                      <li className="header-btn">
+                      {/* <li className="header-btn">
                         <Link href="/contact" className="btn transparent-btn">
                           My Account
                         </Link>
@@ -58,7 +58,7 @@ const HeaderOne = () => {
                         <Link href="/contact" className="btn transparent-btn">
                           Quick Pay
                         </Link>
-                      </li>
+                      </li> */}
                       
                     </ul>
                   </div>
